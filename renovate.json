@@ -1,5 +1,23 @@
 {
+  "timezone": "America/New_York",
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    ":preserveSemverRanges",
+    "group:all",
+    "schedule:monthly",
+    ":maintainLockFilesMonthly"
+  ],
+  "rangeStrategy": "replace",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "extends": "group:all"
+  },
+  "packageRules": [
+    {
+      "automerge": true,
+      "depTypeList": [ "devDependencies" ],
+      "updateTypes": [ "minor", "patch", "pin", "digest" ]
+    }
+  ],
+  "commitMessageAction": "Update"
 }
