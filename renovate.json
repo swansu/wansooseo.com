@@ -1,0 +1,20 @@
+{
+  "extends": ["config:base", ":preserveSemverRanges", "group:all", "schedule:weekly", ":maintainLockFilesWeekly"],
+  "includePaths": ["Gemfile"],
+  "semanticCommits": true,
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "extends": "group:all"
+  },
+  "rebaseLabel": "rebase",
+  "rebaseWhen": "auto",
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "commitMessageAction": "Update",
+  "timezone": "America/New_York"
+}
