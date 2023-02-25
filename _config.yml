@@ -1,7 +1,7 @@
 layout: sidebar
 # layout: stacked
 # style: dark
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -22,10 +22,10 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 0
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
@@ -43,7 +43,7 @@ social_media:
   # twitter:
   #   unsplash: your_username
   #   vk: your_username
-  website: https://wansooseo.com/
+  website: https://www.wansooseo.com/
   # youtube:
 
 projects:
@@ -74,26 +74,6 @@ projects:
   # unsplash: your_username
 
 topics:
-  - name: AWS ( Amazon Web Services )
-    web_url: https://github.com/topics/aws
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png
-
-  - name: Docker
-    web_url: https://github.com/topics/docker
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
-
-  - name: Shell
-    web_url: https://github.com/topics/shell
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/shell/shell.png
-
-  - name: Terminal
-    web_url: https://github.com/topics/terminal
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png
-
-  - name: Bash
-    web_url: https://github.com/topics/bash
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png
-
   - name: Front-End
     web_url: https://github.com/topics/frontend
 
@@ -136,6 +116,22 @@ topics:
   - name: React
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
+
+  - name: AWS ( Amazon Web Services )
+    web_url: https://github.com/topics/aws
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png
+
+  - name: Docker
+    web_url: https://github.com/topics/docker
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
+
+  - name: Terminal
+    web_url: https://github.com/topics/terminal
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png
+
+  - name: Bash
+    web_url: https://github.com/topics/bash
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png
 
   - name: Git
     web_url: https://github.com/topics/git
