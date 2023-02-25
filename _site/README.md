@@ -1,10 +1,6 @@
 <h1 align="center">
-    <a href="https://dev.brucebentley.io/" alt="Bruce Bentley's Development Portfolio">
-        <code>dev.brucebentley.io</code>
-    </a>
-    <br>
-    <a href="https://dev.to/brucebentley">
-        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Bruce Bentley's DEV.to Profile" height="30" width="30">
+    <a href="https://www.wansooseo.com/" alt="Bruce Bentley's Development Portfolio">
+        <code>wansooseo.com/</code>
     </a>
 </h1>
 
@@ -44,7 +40,7 @@ Once you've found a home for your forked repository, **[clone it](https://help.g
 3. Change into your new directory
 
    ```shell
-   $ cd dev.brucebentley.io
+   $ cd wansooseo.com
    ```
 
 4. Build the site and make it available on a local server
